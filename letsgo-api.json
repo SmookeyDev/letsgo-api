@@ -1,0 +1,119 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2022-02-09T18:39:36.411Z",
+  "__export_source": "insomnia.desktop.app:v2021.7.2",
+  "resources": [
+    {
+      "_id": "req_ae0de6f1da0b4f2aad42fd2609125711",
+      "parentId": "wrk_1ec16f34f80c496e85033ab5f9ff79ad",
+      "modified": 1644431735230,
+      "created": 1644423488693,
+      "url": "http://localhost:5002/api/insertContact",
+      "name": "insertContact",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"José\",\n\t\"telephone\": \"5571900000000\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_f8acefddc44240b989054bb003519500"
+        },
+        {
+          "name": "Authorization",
+          "value": "",
+          "id": "pair_7e22cd71a61346a38deb3a8198b9ff11"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1644423488693,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_1ec16f34f80c496e85033ab5f9ff79ad",
+      "parentId": null,
+      "modified": 1644423053196,
+      "created": 1644423053196,
+      "name": "letsgo.yaml",
+      "description": "",
+      "scope": "design",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_25de276d2f1d427ba76c9da656fec537",
+      "parentId": "wrk_1ec16f34f80c496e85033ab5f9ff79ad",
+      "modified": 1644431746592,
+      "created": 1644423077736,
+      "url": "http://localhost:5002/api/createToken",
+      "name": "createToken",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"username\": \"jose\",\n\t\"commerce\": \"RockToYou\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_5e704b4c1feb4d41b58b4c79efacec84"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1644423077736,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_98b0bd0b10c96b5e875c61cdbc222d6884bc28c8",
+      "parentId": "wrk_1ec16f34f80c496e85033ab5f9ff79ad",
+      "modified": 1644423053227,
+      "created": 1644423053227,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1644423053227,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_98b0bd0b10c96b5e875c61cdbc222d6884bc28c8",
+      "parentId": "wrk_1ec16f34f80c496e85033ab5f9ff79ad",
+      "modified": 1644423053231,
+      "created": 1644423053231,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_4ef2227f705b4821b669b3aee167d030",
+      "parentId": "wrk_1ec16f34f80c496e85033ab5f9ff79ad",
+      "modified": 1644423053212,
+      "created": 1644423053212,
+      "fileName": "letsgo.yaml",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
